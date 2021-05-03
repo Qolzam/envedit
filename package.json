@@ -1,0 +1,31 @@
+{
+  "name": "envedit",
+  "version": "1.0.0",
+  "description": "This CLI including parse .env file, replace value, base64 value support.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "envedit": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qolzam/envparse.git"
+  },
+  "keywords": [
+    "env",
+    "base64",
+    "parse"
+  ],
+  "author": "Amirhossein Movahedi <amir.gholzam@live.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Qolzam/envparse/issues"
+  },
+  "homepage": "https://github.com/Qolzam/envparse#readme",
+  "dependencies": {
+    "argparse": "^2.0.1",
+    "envfile": "^6.14.0"
+  }
+}
